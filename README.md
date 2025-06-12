@@ -14,8 +14,8 @@
 
 ```bash
 # 1. Clone the repo
-$ git clone https://github.com/yourname/fastapi-mvc-task.git
-$ cd fastapi-mvc-task
+$ git clone https://github.com/sanoy24/lucid-fast-api-project.git
+$ cd lucid-fast-api-project
 
 # 2. Create .env
 $ cp .env.example .env  # or manually add DB and JWT configs
