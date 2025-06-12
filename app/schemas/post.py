@@ -2,7 +2,7 @@ from pydantic import BaseModel, constr
 
 
 class PostCreate(BaseModel):
-    text: constr(max_length=1024 * 1024)
+    text: constr(max_length=1024 * 1024)  # type: ignore
 
 
 class PostOut(BaseModel):
